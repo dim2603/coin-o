@@ -42,7 +42,6 @@ export default function AddAssetForm({ onClose }) {
           <Button type="primary" key="console" onClick={onClose}>
             Close
           </Button>,
-          <Button key="buy">Buy Again</Button>,
         ]}
       />
     );

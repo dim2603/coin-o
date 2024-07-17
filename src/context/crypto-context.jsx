@@ -10,7 +10,7 @@ const CryptoContext = createContext({
 
 export function CryptoContextProvider({ children }) {
   const [loading, setLoading] = useState(false);
-  const [crypto, setCrypro] = useState([]);
+  const [crypto, setCrypto] = useState([]);
   const [assets, setAssets] = useState([]);
 
   function mapAssets(assets, result) {
@@ -34,7 +34,7 @@ export function CryptoContextProvider({ children }) {
       const assets = await fetchAssets();
 
       setAssets(mapAssets(assets, result));
-      setCrypro(result);
+      setCrypto(result);
       setLoading(false);
     }
     preload();
