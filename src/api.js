@@ -14,7 +14,7 @@ export function fetchCrypto() {
     .then(response => {
       if (!response.ok) {
         alert('Please check API_KEY in /src/api.js and specify correct from coinstats.app')
-        throw new Error('Network response was not ok');
+        throw new Error('Please enter valid API_KEY or check your internet connection');
       }
       return response.json();
     })
