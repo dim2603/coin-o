@@ -1,4 +1,4 @@
-### Coin-O
+# Coin-O
 
 ## What Is It?
 
