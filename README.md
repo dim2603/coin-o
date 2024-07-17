@@ -6,7 +6,7 @@ This is an application for tracking current cryptocurrency rates in real time us
 
 ## How to use?
 
-- Specify valid API key from [CoinStats.App](https://coinstats.app/)
+- Specify valid API key from [CoinStats.App](https://coinstats.app/) in /src/api.js
 - npm run dev
 
 ## Other Dependencies
