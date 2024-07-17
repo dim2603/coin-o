@@ -6,5 +6,5 @@ This is an application for tracking current cryptocurrency rates in real time us
 
 ## Other Dependencies
 
-**Ant Design (antd)** - CSS-styles framework
-**react-chartjs-2** - Chart Module in AppContent
+- **Ant Design (antd)** - CSS-styles framework
+- **react-chartjs-2** - Chart Module in AppContent
